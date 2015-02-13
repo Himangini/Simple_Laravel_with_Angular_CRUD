@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Laravel and Angular Comment System</title>
+	<title>Himangini Daware</title>
 
 	<!-- CSS -->
 	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css"> <!-- load bootstrap via cdn -->
@@ -30,8 +30,7 @@
 
 	<!-- PAGE TITLE -->
 	<div class="page-header">
-		<h2>Laravel and Angular Single Page Application</h2>
-		<h4>Commenting System</h4>
+		<h2>Laravel and Angular CRUD Application</h2>
 	</div>
 
 	<!-- NEW COMMENT FORM -->
@@ -44,12 +43,12 @@
 
 		<!-- COMMENT TEXT -->
 		<div class="form-group">
-			<input type="text" class="form-control input-lg" name="comment" ng-model="commentData.text" placeholder="Say what you have to say">
+			<input type="text" class="form-control input-sm" name="comment" ng-model="commentData.text" placeholder="Say what you have to say">
 		</div>
 		
 		<!-- SUBMIT BUTTON -->
 		<div class="form-group text-right">	
-			<button type="submit" class="btn btn-primary btn-lg">Submit</button>
+			<button type="submit" class="btn btn-primary">Submit</button>
 		</div>
 	</form>
 
