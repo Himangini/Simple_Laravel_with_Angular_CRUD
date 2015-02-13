@@ -5,7 +5,7 @@ There is a famous tutorial online by scotch.io https://scotch.io/tutorials/creat
 I have used to same concept and improved it by adding my own Update and Delete operations.
 
 To clone the repository follow the instructions below: <br/>
-1. Extract and copy laravel folder on your server. <br/>
+1. Clone folder on your server. <br/>
 2. Install Laravel: composer install --prefer-dist <br/>
 3. Change your database settings in app/config/database.php [Important] <br/>
 4. Migrate your database: php artisan migrate <br/>
